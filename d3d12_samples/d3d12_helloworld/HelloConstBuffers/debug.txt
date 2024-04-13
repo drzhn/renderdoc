@@ -1,0 +1,107 @@
+RDOC 013320: [18:46:27]             core.cpp( 501) - Log     - RenderDoc v1.33 Windows 64-bit Development (31eeb49471807f7332c19f8a808abe32723c2760) capturing application
+RDOC 013320: [18:46:27]             core.cpp( 516) - Debug   - Listening for target control on 38920
+RDOC 013320: [18:46:27]         settings.cpp( 475) - Log     - Loading config from C:\Users\klever\AppData\Roaming\renderdoc\renderdoc.conf
+RDOC 013320: [18:46:27]   win32_libentry.cpp(  68) - Log     - Loading into D:\CppProjects\renderdoc\d3d12_samples\d3d12_helloworld\HelloConstBuffers\bin\x64\Release\D3D12HelloConstBuffers.exe
+RDOC 013320: [18:46:27]  sys_win32_hooks.cpp(  84) - Log     - Registering Win32 system hooks
+RDOC 013320: [18:46:27]      d3d11_hooks.cpp(  44) - Log     - Registering D3D11 hooks
+RDOC 013320: [18:46:27]       d3d9_hooks.cpp(  40) - Log     - Registering D3D9 hooks
+RDOC 013320: [18:46:27]        amd_hooks.cpp( 154) - Log     - Registering AMD hooks
+RDOC 013320: [18:46:27]      nvapi_hooks.cpp( 141) - Log     - Registering nvidia hooks
+RDOC 013320: [18:46:27]      d3d12_hooks.cpp( 200) - Log     - Registering D3D12 hooks
+RDOC 013320: [18:46:27]       dxgi_hooks.cpp( 250) - Log     - Registering DXGI hooks
+RDOC 013320: [18:46:27]        egl_hooks.cpp(1080) - Log     - Registering EGL hooks
+RDOC 013320: [18:46:27]         gl_hooks.cpp( 280) - Log     - Registering OpenGL hooks
+RDOC 013320: [18:46:27]        wgl_hooks.cpp( 655) - Log     - Registering WGL hooks
+RDOC 013320: [18:46:27]         vk_layer.cpp( 110) - Log     - Registering Vulkan hooks
+RDOC 013320: [18:46:27]        wgl_hooks.cpp( 639) - Debug   - WGL library hooked
+RDOC 013320: [18:46:27]      d3d12_hooks.cpp( 271) - Debug   - Call to Create_Internal Feature Level b000
+RDOC 013320: [18:46:27]      d3d12_hooks.cpp( 281) - Debug   - Calling real createdevice...
+RDOC 013320: [18:46:27]      d3d12_hooks.cpp( 285) - Debug   - Called real createdevice... HRESULT: S_FALSE
+RDOC 013320: [18:46:27]      d3d12_hooks.cpp( 393) - Log     - Created wrapped D3D12 device.
+RDOC 013320: [18:46:27]      d3d12_hooks.cpp( 271) - Debug   - Call to Create_Internal Feature Level b000
+RDOC 013320: [18:46:27]      d3d12_hooks.cpp( 281) - Debug   - Calling real createdevice...
+RDOC 013320: [18:46:28]      d3d12_hooks.cpp( 285) - Debug   - Called real createdevice... HRESULT: S_OK
+RDOC 013320: [18:46:28]      d3d12_hooks.cpp( 289) - Debug   - succeeded and hooking.
+RDOC 013320: [18:46:28]     d3d12_device.cpp( 718) - Log     - New D3D12 device created: Intel / Intel(R) Iris(R) Xe Graphics 31.0.101.3962
+RDOC 013320: [18:46:28]             core.cpp(2011) - Log     - Adding D3D12 device frame capturer for 0x000002BE9779A838
+RDOC 013320: [18:46:28]     d3d12_device.cpp( 826) - Debug   - Couldn't get ID3D12InfoQueue.
+RDOC 013320: [18:46:28]      d3d12_hooks.cpp( 361) - Debug   - created wrapped device.
+RDOC 013320: [18:46:28]     d3d12_device.cpp(3883) - Log     - Resizing GPU readback window to 4194304
+RDOC 013320: [18:46:28]             core.cpp(2047) - Log     - Adding D3D12 frame capturer for 0x000002BE9779A838 / 0x0000000000230DC8
+RDOC 013320: [18:46:28] d3d12_device_wrap.cpp(2291) - Log     - Checking feature support for 12
+RDOC 002672: [18:47:49]             core.cpp( 501) - Log     - RenderDoc v1.33 Windows 64-bit Development (31eeb49471807f7332c19f8a808abe32723c2760) capturing application
+RDOC 002672: [18:47:49]             core.cpp( 516) - Debug   - Listening for target control on 38920
+RDOC 002672: [18:47:49]         settings.cpp( 475) - Log     - Loading config from C:\Users\klever\AppData\Roaming\renderdoc\renderdoc.conf
+RDOC 002672: [18:47:49]   win32_libentry.cpp(  68) - Log     - Loading into D:\CppProjects\renderdoc\d3d12_samples\d3d12_helloworld\HelloConstBuffers\bin\x64\Debug\D3D12HelloConstBuffers.exe
+RDOC 002672: [18:47:49]  sys_win32_hooks.cpp(  84) - Log     - Registering Win32 system hooks
+RDOC 002672: [18:47:49]      d3d11_hooks.cpp(  44) - Log     - Registering D3D11 hooks
+RDOC 002672: [18:47:49]       d3d9_hooks.cpp(  40) - Log     - Registering D3D9 hooks
+RDOC 002672: [18:47:49]        amd_hooks.cpp( 154) - Log     - Registering AMD hooks
+RDOC 002672: [18:47:49]      nvapi_hooks.cpp( 141) - Log     - Registering nvidia hooks
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 200) - Log     - Registering D3D12 hooks
+RDOC 002672: [18:47:49]       dxgi_hooks.cpp( 250) - Log     - Registering DXGI hooks
+RDOC 002672: [18:47:49]        egl_hooks.cpp(1080) - Log     - Registering EGL hooks
+RDOC 002672: [18:47:49]         gl_hooks.cpp( 280) - Log     - Registering OpenGL hooks
+RDOC 002672: [18:47:49]        wgl_hooks.cpp( 655) - Log     - Registering WGL hooks
+RDOC 002672: [18:47:49]         vk_layer.cpp( 110) - Log     - Registering Vulkan hooks
+RDOC 002672: [18:47:49]        wgl_hooks.cpp( 639) - Debug   - WGL library hooked
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 271) - Debug   - Call to Create_Internal Feature Level b000
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 281) - Debug   - Calling real createdevice...
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 285) - Debug   - Called real createdevice... HRESULT: S_FALSE
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 393) - Log     - Created wrapped D3D12 device.
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 271) - Debug   - Call to Create_Internal Feature Level b000
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 281) - Debug   - Calling real createdevice...
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 285) - Debug   - Called real createdevice... HRESULT: S_OK
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 289) - Debug   - succeeded and hooking.
+RDOC 002672: [18:47:49]     d3d12_device.cpp( 718) - Log     - New D3D12 device created: Intel / Intel(R) Iris(R) Xe Graphics 31.0.101.3962
+RDOC 002672: [18:47:49]             core.cpp(2011) - Log     - Adding D3D12 device frame capturer for 0x000001EBACEA22E8
+RDOC 002672: [18:47:49]     d3d12_device.cpp( 826) - Debug   - Couldn't get ID3D12InfoQueue.
+RDOC 002672: [18:47:49]      d3d12_hooks.cpp( 361) - Debug   - created wrapped device.
+RDOC 002672: [18:47:49]     d3d12_device.cpp(3883) - Log     - Resizing GPU readback window to 4194304
+RDOC 002672: [18:47:49]             core.cpp(2047) - Log     - Adding D3D12 frame capturer for 0x000001EBACEA22E8 / 0x0000000000550DD4
+RDOC 029000: [19:03:04]             core.cpp( 501) - Log     - RenderDoc v1.33 Windows 64-bit Development (31eeb49471807f7332c19f8a808abe32723c2760) capturing application
+RDOC 029000: [19:03:07]             core.cpp( 516) - Debug   - Listening for target control on 38920
+RDOC 029000: [19:03:07]         settings.cpp( 475) - Log     - Loading config from C:\Users\klever\AppData\Roaming\renderdoc\renderdoc.conf
+RDOC 029000: [19:03:07]   win32_libentry.cpp(  68) - Log     - Loading into D:\CppProjects\renderdoc\d3d12_samples\d3d12_helloworld\HelloConstBuffers\bin\x64\Debug\D3D12HelloConstBuffers.exe
+RDOC 029000: [19:03:07]  sys_win32_hooks.cpp(  84) - Log     - Registering Win32 system hooks
+RDOC 029000: [19:03:07]      d3d11_hooks.cpp(  44) - Log     - Registering D3D11 hooks
+RDOC 029000: [19:03:07]       d3d9_hooks.cpp(  40) - Log     - Registering D3D9 hooks
+RDOC 029000: [19:03:07]        amd_hooks.cpp( 154) - Log     - Registering AMD hooks
+RDOC 029000: [19:03:07]      nvapi_hooks.cpp( 141) - Log     - Registering nvidia hooks
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 200) - Log     - Registering D3D12 hooks
+RDOC 029000: [19:03:07]       dxgi_hooks.cpp( 250) - Log     - Registering DXGI hooks
+RDOC 029000: [19:03:07]        egl_hooks.cpp(1080) - Log     - Registering EGL hooks
+RDOC 029000: [19:03:07]         gl_hooks.cpp( 280) - Log     - Registering OpenGL hooks
+RDOC 029000: [19:03:07]        wgl_hooks.cpp( 655) - Log     - Registering WGL hooks
+RDOC 029000: [19:03:07]         vk_layer.cpp( 110) - Log     - Registering Vulkan hooks
+RDOC 029000: [19:03:07]        wgl_hooks.cpp( 639) - Debug   - WGL library hooked
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 271) - Debug   - Call to Create_Internal Feature Level b000
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 281) - Debug   - Calling real createdevice...
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 285) - Debug   - Called real createdevice... HRESULT: S_FALSE
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 393) - Log     - Created wrapped D3D12 device.
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 271) - Debug   - Call to Create_Internal Feature Level b000
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 281) - Debug   - Calling real createdevice...
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 285) - Debug   - Called real createdevice... HRESULT: S_OK
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 289) - Debug   - succeeded and hooking.
+RDOC 029000: [19:03:07]     d3d12_device.cpp( 718) - Log     - New D3D12 device created: Intel / Intel(R) Iris(R) Xe Graphics 31.0.101.3962
+RDOC 029000: [19:03:07]             core.cpp(2011) - Log     - Adding D3D12 device frame capturer for 0x0000024A61C01608
+RDOC 029000: [19:03:07]     d3d12_device.cpp( 826) - Debug   - Couldn't get ID3D12InfoQueue.
+RDOC 029000: [19:03:07]      d3d12_hooks.cpp( 361) - Debug   - created wrapped device.
+RDOC 029000: [19:03:07]     d3d12_device.cpp(3883) - Log     - Resizing GPU readback window to 4194304
+RDOC 029000: [19:03:07]             core.cpp(2047) - Log     - Adding D3D12 frame capturer for 0x0000024A61C01608 / 0x00000000002B0D38
+RDOC 011920: [19:07:05]             core.cpp( 501) - Log     - RenderDoc v1.33 Windows 64-bit Development (31eeb49471807f7332c19f8a808abe32723c2760) capturing application
+RDOC 011920: [19:07:07]             core.cpp( 516) - Debug   - Listening for target control on 38920
+RDOC 011920: [19:07:07]         settings.cpp( 475) - Log     - Loading config from C:\Users\klever\AppData\Roaming\renderdoc\renderdoc.conf
+RDOC 011920: [19:07:07]   win32_libentry.cpp(  68) - Log     - Loading into D:\CppProjects\renderdoc\d3d12_samples\d3d12_helloworld\HelloConstBuffers\bin\x64\Debug\D3D12HelloConstBuffers.exe
+RDOC 011920: [19:07:07]  sys_win32_hooks.cpp(  84) - Log     - Registering Win32 system hooks
+RDOC 011920: [19:07:07]      d3d11_hooks.cpp(  44) - Log     - Registering D3D11 hooks
+RDOC 011920: [19:07:07]       d3d9_hooks.cpp(  40) - Log     - Registering D3D9 hooks
+RDOC 011920: [19:07:07]        amd_hooks.cpp( 154) - Log     - Registering AMD hooks
+RDOC 011920: [19:07:07]      nvapi_hooks.cpp( 141) - Log     - Registering nvidia hooks
+RDOC 011920: [19:07:07]      d3d12_hooks.cpp( 200) - Log     - Registering D3D12 hooks
+RDOC 011920: [19:07:07]       dxgi_hooks.cpp( 250) - Log     - Registering DXGI hooks
+RDOC 011920: [19:07:07]        egl_hooks.cpp(1080) - Log     - Registering EGL hooks
+RDOC 011920: [19:07:07]         gl_hooks.cpp( 280) - Log     - Registering OpenGL hooks
+RDOC 011920: [19:07:07]        wgl_hooks.cpp( 655) - Log     - Registering WGL hooks
+RDOC 011920: [19:07:07]         vk_layer.cpp( 110) - Log     - Registering Vulkan hooks
+RDOC 011920: [19:07:07]        wgl_hooks.cpp( 639) - Debug   - WGL library hooked
