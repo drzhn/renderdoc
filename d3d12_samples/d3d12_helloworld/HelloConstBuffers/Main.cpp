@@ -1,4 +1,4 @@
-//*********************************************************
+﻿//*********************************************************
 //
 // Copyright (c) Microsoft. All rights reserved.
 // This code is licensed under the MIT License (MIT).
@@ -10,7 +10,9 @@
 //*********************************************************
 #include "stdafx.h"
 
-//#include "capture_options.h"
+// #include "capture_options.h"
+#include <iostream>
+
 #include "D3D12HelloConstBuffers.h"
 
 struct CaptureOptions
@@ -38,11 +40,11 @@ int main()
 {
   const char *lib = R"(D:\CppProjects\renderdoc\x64\Development\renderdoc.dll)";
   HMODULE renderdoc = LoadLibraryA(lib);
-  func *proc = (func *)GetProcAddress(renderdoc, "INTERNAL_SetCaptureFile");
-  proc("test.rdc");
+   func *proc = (func *)GetProcAddress(renderdoc, "INTERNAL_SetCaptureFile");
+   proc("test.rdc");
 
-  proc = (func *)GetProcAddress(renderdoc, "INTERNAL_SetDebugLogFile");
-  proc("debug.txt");
+  // proc = (func *)GetProcAddress(renderdoc, "INTERNAL_SetDebugLogFile");
+  // proc("debug.txt");
 
   CaptureOptions options = {true,  true,  false, false, false, 0,
                             false, false, false, false, true,  0};

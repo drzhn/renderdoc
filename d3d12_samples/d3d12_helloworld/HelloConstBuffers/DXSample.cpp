@@ -55,8 +55,7 @@ void DXSample::GetHardwareAdapter(
         for (
             UINT adapterIndex = 0;
             SUCCEEDED(factory6->EnumAdapterByGpuPreference(
-                adapterIndex,
-                requestHighPerformanceAdapter == true ? DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE : DXGI_GPU_PREFERENCE_UNSPECIFIED,
+                adapterIndex, DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE,
                 IID_PPV_ARGS(&adapter)));
             ++adapterIndex)
         {
