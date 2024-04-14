@@ -397,6 +397,7 @@ RenderDoc::RenderDoc()
   m_CaptureKeys.clear();
   m_CaptureKeys.push_back(eRENDERDOC_Key_F12);
   m_CaptureKeys.push_back(eRENDERDOC_Key_PrtScrn);
+  m_CaptureKeys.push_back(eRENDERDOC_Key_C);
 
   m_ExHandler = NULL;
 
